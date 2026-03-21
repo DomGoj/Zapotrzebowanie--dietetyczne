@@ -1,0 +1,65 @@
+# ==============================
+# Node / Build
+# ==============================
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.log
+lerna-debug.log*
+
+# ==============================
+# React / Vite / Frontend
+# ==============================
+.vite/
+.env
+.env.local
+.env.*.local
+
+# ==============================
+# TypeScript
+# ==============================
+*.tsbuildinfo
+
+# ==============================
+# Editor / IDE files
+# ==============================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.wsuo
+*.sqlite
+*.vsidx
+*.db
+codechunks.db
+documentlayout.json
+documentlayout.backup.json
+projectsettings.json
+vsworkspacestate.json
+semanticssymbols.db
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Optional temporary files
+# ==============================
+*.tmp
+*.temp
+*.bak
+*.backup
