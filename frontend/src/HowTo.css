@@ -1,0 +1,123 @@
+.cu-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.cu-header-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 18px;
+  color: var(--text);
+}
+
+.cu-logo-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--success);
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
+}
+
+.cu-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.cu-intro {
+  font-size: 16px;
+  margin-bottom: 18px;
+  color: var(--text-light);
+
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--bg) 85%, var(--primary) 5%);
+}
+
+.cu-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cu-step {
+  display: flex;
+  gap: 14px;
+  padding: 16px;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--bg) 92%, var(--primary) 8%);
+  border: 1px solid var(--border);
+  transition: 0.2s ease;
+}
+
+.cu-step:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+}
+
+.cu-step-num {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.cu-step-title {
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--text);
+}
+
+.cu-step-desc {
+  margin: 0 0 10px;
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+.cu-step-tag {
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--secondary) 25%, var(--bg));
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.cu-animal-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.cu-animal-pill {
+  background: color-mix(in srgb, var(--primary) 12%, var(--bg));
+  color: var(--text);
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  border: 1px solid var(--border);
+}
+
+.cu-tip {
+  margin-top: 18px;
+  padding: 14px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--primary) 10%, var(--bg));
+  border-left: 4px solid var(--primary);
+  color: var(--text-light);
+  font-size: 14px;
+}
