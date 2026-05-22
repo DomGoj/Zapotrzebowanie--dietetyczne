@@ -1,27 +1,21 @@
-/* =========================================
-   GLOBAL
-   ========================================= */
-
-/* Bright mode (Default) */
 :root {
-  --bg-main: #f1efdf;         /* Tło całej strony */
-  --bg-surface: #ffffff;      /* Tło białych tabel */
-  --text-main: #333333;       /* Główny tekst */
-  --text-muted: #555555;      /* Nagłówki */
-  --border-color: #eeeeee;    /* Linie oddzielające */
-  --border-strong: #cccccc;   /* Obramowania (inputy) */
-  --header-bg: #7a5400;       /* Tło nagłówka */
-  --header-text: #ffffff;     /* Tekst w nagłówku */
-  --input-bg: #ffffff;        /* Tło inputów */
+  --bg-main: #f1efdf;         
+  --bg-surface: #ffffff;      
+  --text-main: #333333;       
+  --text-muted: #555555;      
+  --border-color: #eeeeee;    
+  --border-strong: #cccccc;   
+  --header-bg: #7a5400;       
+  --header-text: #ffffff;     
+  --input-bg: #ffffff;        
   --accent-purple: #8e44ad;
   --accent-green: #2ecc71;
   --accent-lime: #C5E139;
-  --accent-primary: #ee5b5e;  /* Kolor przycisku Kalkulator w menu */
-  --bar-bg: #ecf0f1;          /* Tło pustego paska postępu */
-  --item-hover: #f9f9f9;      /* Tło elementu po najechaniu */
+  --accent-primary: #ee5b5e;  
+  --bar-bg: #ecf0f1;          
+  --item-hover: #f9f9f9;      
 }
 
-/* Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-main: #121212;         
@@ -42,10 +36,6 @@
   }
 }
 
-/* =========================================
-   MAIN
-   ========================================= */
-
 body, html, #root {
   background-color: var(--bg-main);
   color: var(--text-main);
@@ -58,10 +48,6 @@ body, html, #root {
   height: 100%;
   width: 100%;
 }
-
-/* =========================================
-   HEADER
-   ========================================= */
 
 .header {
   background-color: var(--header-bg);
@@ -111,10 +97,6 @@ body, html, #root {
   margin: 0 1%;
 }
 
-/* =========================================
-   NAV
-   ========================================= */
-
 .button-container {
   display: flex;
   gap: 15px;
@@ -145,10 +127,6 @@ body, html, #root {
   background-color: rgba(255, 255, 255, 0.15);
   border-color: var(--accent-primary);
 }
-
-/* =========================================
-   MAIN CONTENT
-   ========================================= */
 
 .main-content {
   display: flex;
@@ -181,10 +159,6 @@ body, html, #root {
   color: var(--text-muted);
   margin-top: 20px;
 }
-
-/* =========================================
-   ANIMAL CHOICE
-   ========================================= */
 
 .animal-selector {
   display: flex;
@@ -227,10 +201,6 @@ body, html, #root {
   margin-bottom: 10px;
 }
 
-/* =========================================
-   WEIGHT
-   ========================================= */
-
 .weight-input-container {
   margin-bottom: 20px;
   text-align: center;
@@ -266,10 +236,6 @@ body, html, #root {
   color: var(--text-muted);
   font-weight: bold;
 }
-
-/* =========================================
-   INGREDIENTS SEARCH
-   ========================================= */
 
 .search-section {
   width: 100%;
@@ -376,10 +342,6 @@ body, html, #root {
   box-shadow: 0 2px 5px rgba(231, 76, 60, 0.3);
 }
 
-/* =========================================
-   INGREDIENTS TABLE
-   ========================================= */
-
 .selected-ingredients-table-container {
   background: var(--bg-surface);
   padding: 20px;
@@ -457,10 +419,6 @@ body, html, #root {
   color: white;
 }
 
-/* =========================================
-   NUTRITIONAL VALUES
-   ========================================= */
-
 .nutrition-summary-container {
   background: var(--bg-surface);
   padding: 20px;
@@ -522,10 +480,6 @@ body, html, #root {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
-
-/* =========================================
-   RESPONSIVE WEB DESIGN (PHONE)
-   ========================================= */
 
 @media (max-width: 1100px) {
   .header {

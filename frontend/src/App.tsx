@@ -2,6 +2,7 @@ import { useState } from "react";
 import logo from "./assets/LogoNutrition.png";
 import catIcon from "./assets/cat-icon.png";
 import dogIcon from "./assets/dog-icon.png";
+import HowToUseCuterition from "./HowTo.tsx";
 import "./App.css";
 
 interface Ingredient {
@@ -323,7 +324,7 @@ function App() {
       case "roadmap":
         return <p> Część strony z plany rozwoju strony</p>;
       case "howto":
-        return <p>Część strony z instrukcją korzystania z kalkulatora</p>;
+        return <HowToUseCuterition />;
       case "resources":
         return <p>Część strony z dodatkowymi zasobami</p>;
       default:

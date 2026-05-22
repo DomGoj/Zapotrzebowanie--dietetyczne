@@ -1,5 +1,4 @@
 :root {
-  /* -----LIGHT MODE COLORS----- */
   --blue: #6ec1e4;
   --mint: #6ee7b7;
   --accent: #10b981;
@@ -26,7 +25,6 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* -----DARK MODE COLORS----- */
     --blue: #3b82f6;
     --mint: #22c55e;
     --accent: #059669;
@@ -42,14 +40,12 @@
   }
 }
 
-/* Body */
 body {
   margin: 0;
   color: var(--text);
   background-color: var(--bg);
 }
 
-/* Root container */
 #root {
   min-height: 100vh;
   display: flex;
